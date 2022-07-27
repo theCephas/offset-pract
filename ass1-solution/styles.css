@@ -1,0 +1,138 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: #c4f5fc;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.container{
+    position: relative;
+}
+h1{
+    text-align: center;
+}
+
+#choco{
+    background-color: #e2a0ff;
+    text-align: center;
+    float: right;
+    border: 1px solid black;
+    margin-top: 0;
+    width: 40%;
+}
+.chocolates{
+    position: absolute;
+    background-color: #0a2342;
+    top: 6%;
+    margin: 60px;
+    border: 1px solid black;
+    width: 25%;
+    height: 17em;
+}
+.biscuits{
+    background-color: #0a2342;
+    border: 1px solid black;
+    width: 25%;
+    height: 17em;
+    position: absolute;
+    left: 28%;
+    top: 6%;
+    margin: 60px;
+}
+#bis{
+    background-color: #2ca58d;
+    text-align: center;
+    float: right;
+    border: 1px solid black;
+    margin-top: 0;
+    width: 40%;
+}
+.gums{
+    background-color: #0a2342;
+    border: 1px solid black;
+    width: 25%;
+    height: 17em;
+    position: absolute;
+    top: 6%;
+    left: 56%;
+    margin: 60px;
+}
+#gums{
+    background-color: #f46197;
+    text-align: center;
+    float: right;
+    border: 1px solid black;
+    margin-top: 0;
+    width: 40%;
+}
+p{
+    color: #fffdf7;
+    font-size: 1em;
+    padding: 10px;
+    clear: right;
+}
+
+@media (min-width: 768px) and (max-width: 991px){
+    body{
+        background-color: aquamarine;
+    }
+    .chocolates{
+        position: absolute;
+        width: 44%;
+        height: 17em;
+        margin: 20px;
+        top: 8%;
+    }
+    .biscuits{
+        position: relative;
+        width: 44%;
+        height: 17em;
+        left: 45.8%;
+        margin: 20px;
+    }
+    .gums{
+        width: 90%;
+        height: 15em;
+        position: relative;
+        left: 0%;
+        margin: 20px;
+    }
+    #choco{
+        width: 8em;
+    }
+    #bis{
+        width: 8em;
+    }
+    #gums{
+        width: 8em;
+    }
+}
+@media screen and (max-width: 767px){
+    body{
+        background-color: yellowgreen;
+    }
+    .container{
+        position: relative;
+        margin: 0;
+    }
+    .chocolates{
+        position: relative;
+        width: 25em;
+        margin: auto;
+        margin-bottom: 10px;
+    }
+    .biscuits{
+        width: 25em;
+        margin: auto;
+        margin-bottom: 10px;
+        position: relative;
+        left: 0px;
+    }
+    .gums{
+        width: 25em;
+        margin: auto;
+        position: relative;
+        left: 0px;
+        top: 170%;
+    }
+}
