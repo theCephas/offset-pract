@@ -117,19 +117,19 @@ p{
     }
     .chocolates{
         position: relative;
-        width: 25em;
+        width: 21em;
         margin: auto;
         margin-bottom: 10px;
     }
     .biscuits{
-        width: 25em;
+        width: 21em;
         margin: auto;
         margin-bottom: 10px;
         position: relative;
         left: 0px;
     }
     .gums{
-        width: 25em;
+        width: 21em;
         margin: auto;
         position: relative;
         left: 0px;
